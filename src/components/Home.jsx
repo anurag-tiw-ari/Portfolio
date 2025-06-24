@@ -31,7 +31,7 @@ const Home = () => {
   const downloadResume = () => {
     const a = document.createElement('a');
     a.href = resume;
-    a.download = 'John_Doe_Resume.pdf';
+    a.download = 'Anurag_Tiwari_Resume.pdf';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -53,7 +53,7 @@ const Home = () => {
             variants={itemVariants}
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 dark:border-blue-400 shadow-xl mb-6 md:mb-0">
-              <img src={profileImage} alt="John Doe" className="object-cover w-full h-full" />
+              <img src={profileImage} alt="anurag tiwari" className="object-cover w-full h-full" />
             </div>
           </motion.div>
 
