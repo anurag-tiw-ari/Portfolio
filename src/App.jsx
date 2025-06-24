@@ -33,7 +33,6 @@ function App() {
     </ThemeProvider>
   )
 }
-import ChatWithAI from './components/ChatWithAI'
 
 export default App
 
