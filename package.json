@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html  --public-url ./ && cp src/assets/resume.pdf dist/",
     "watch:css": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch"
   },
   "keywords": [],
