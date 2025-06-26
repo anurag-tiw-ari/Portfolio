@@ -141,3 +141,21 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+
+/* Custom scrollbar */
+.flip-card-front-project::-webkit-scrollbar,
+.flip-card-back-project::-webkit-scrollbar {
+  width: 6px;
+}
+
+.flip-card-front-project::-webkit-scrollbar-thumb,
+.flip-card-back-project::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.flip-card-front-project::-webkit-scrollbar-thumb:hover,
+.flip-card-back-project::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
