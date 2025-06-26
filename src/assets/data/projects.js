@@ -1,5 +1,6 @@
 import CodingPlatformImage from '../CodingPlatform.png';
 import wheatherImage from "../Wheather.png"
+import ChatAppImage from "../chatapp.png"
 
 const projectsData= [
     {
@@ -28,7 +29,8 @@ const projectsData= [
       fullDescription: "Developed a full‑stack Chat Application with a secure JWT-based authentication system, allowing users to register, log in, and connect in real‑time. Integrated Socket.io for instant messaging and online status indicators, and leveraged the Dicebear API for automatic avatar assignment. Implemented a user search feature for quick access to chats and optimized the UI for a clean and intuitive experience, ensuring seamless communication across the platform.",
       technologies: ["React", "Redux", "MongoDB", "Node.js", "React.js","Express.js","Socket.io"],
       tagline:"Authentication to Chat ",
-      link: "https://github.com/anurag-tiw-ari/Chat-app"
+      link: "https://github.com/anurag-tiw-ari/Chat-app",
+      image: ChatAppImage
     }
   ]
 
