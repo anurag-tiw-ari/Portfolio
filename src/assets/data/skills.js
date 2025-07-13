@@ -18,14 +18,14 @@ const skillsData= [
       ]
     },
     {
-      title: "Machine Learning",
-      description: "Developing predictive models and data analysis solutions.",
-      skills: [
-        "Python", "NumPy", "Pandas", "Scikit-learn",
-        "TensorFlow", "Keras", "Matplotlib", "Seaborn",
-        "Data Preprocessing", "Model Evaluation", "Neural Networks"
-      ]
-    }
+    title: "Generative AI",
+    description: "AI solutions with LLMs for automation and creation.",
+    skills: [
+     "LangChain", "Google Gemini API", "Prompt Engineering",
+      "Vector Databases", "Streamlit"
+    ]
+  }
+
   ]
 
   export default skillsData;

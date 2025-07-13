@@ -1,6 +1,7 @@
 import CodingPlatformImage from '../CodingPlatform.png';
 import wheatherImage from "../Wheather.png"
 import ChatAppImage from "../chatapp.png"
+import AiWebsiteBuilderImage from "../AiWebsiteBuilder.png"
 
 const projectsData= [
     {
@@ -11,8 +12,17 @@ const projectsData= [
       The platform includes a learning page with DSA articles, nested comments, and notifications for replies. Its highlight is the Battle Mode, allowing real‑time coding contests with difficulty and topic selection, powered by Socket.IO and protected against disconnections. Featuring AI chat support, video editorials, and an admin panel, it delivers a seamless coding and learning experience for developers of all levels.`,
       technologies: ["React", "Node.js", "MongoDB", "Express.js","Redux", "Judge0 API", "Redis","TipTap","Monaco Editor","Socket.io","LLM","Zod"],
       tagline:"End to End Complete Project",
-      link: "https://github.com/anurag-tiw-ari/CodeXCodingPlatform",
+      link: "https://drive.google.com/file/d/1S75h8U78CD_SMy6-mFJX-N9ohPlEjYjK/view?usp=drive_link",
       image:CodingPlatformImage
+    },
+    {
+      title: "AI Website Builder",
+      shortDescription: "AI-powered Website Builder — create a Customise portfolio or any website. One-click live deploy, Edit code with live preview, Download as ZIP",
+      fullDescription: "Built an AI-powered Website Builder that lets you create websites effortlessly. Just fill a simple form in 3 steps and your website is ready — be it a portfolio or any custom site. With one click, you can deploy it live, edit the code with real-time preview, or download the entire project as a ZIP file.This tool makes website creation easy for everyone — no coding required to get started, but full control for those who want to tweak the code. Whether you want a quick portfolio or a fully customized website, everything is possible in minutes.",
+      technologies: ["React","TailwindCSS","ExpressJs","Gemini API","Netlify API","Cloudinary"],
+      tagline:"Build & Deploy in Few Minutes",
+      link: "https://docs.google.com/document/d/1MJXwWwD3-sUkxK3LOE6wRfELe9ZvcDMbiZogUiaQX40/edit?usp=drive_link",
+      image:AiWebsiteBuilderImage
     },
     {
       title: "Weather App",

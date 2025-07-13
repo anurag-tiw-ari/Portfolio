@@ -84,7 +84,7 @@ const Footer = () => {
           </motion.div>
         </div>
         
-        <motion.div 
+        {/* <motion.div 
           className="border-t border-gray-200 dark:border-gray-700 mt-12 pt-8 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -92,7 +92,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p>&copy; {new Date().getFullYear()} Anurag Tiwari. All rights reserved.</p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </footer>
   )

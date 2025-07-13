@@ -78,7 +78,7 @@ const Projects = () => {
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
               {project.title}
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4 bg-blue-600 pt-2 pb-2 px-3 rounded">
+            <p className="text-gray-200 dark:text-gray-300 mb-4 bg-blue-600 pt-2 pb-2 px-3 rounded">
               {project.shortDescription}
             </p>
             <h4 className='text-md text-black bg-gray-400 p-1 rounded text-center font-bold'>{project.tagline}</h4>
@@ -98,7 +98,7 @@ const Projects = () => {
           <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
             {project.title} Details
           </h3>
-          <p className="text-gray-600 dark:text-gray-300 mb-4  bg-blue-600 pt-2 pb-2 px-3 rounded">
+          <p className="text-gray-200 dark:text-gray-300 mb-4  bg-blue-600 pt-2 pb-2 px-3 rounded">
             {project.fullDescription}
           </p>
           <div className="mb-4">
