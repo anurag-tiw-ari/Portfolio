@@ -2,6 +2,8 @@ import CodingPlatformImage from '../CodingPlatform.png';
 import wheatherImage from "../Wheather.png"
 import ChatAppImage from "../chatapp.png"
 import AiWebsiteBuilderImage from "../AiWebsiteBuilder.png"
+import URLshortenerImage from "../URLshortener.png"
+
 
 const projectsData= [
     {
@@ -24,6 +26,16 @@ const projectsData= [
       link: "https://docs.google.com/document/d/1MJXwWwD3-sUkxK3LOE6wRfELe9ZvcDMbiZogUiaQX40/edit?usp=drive_link",
       image:AiWebsiteBuilderImage
     },
+    {
+      title: "URL Shortener App",
+      shortDescription: "A full-stack URL Shortener built with React, Node.js, MongoDB, and Redis. It provides users with secure login, short URL generation, and safe redirection.",
+      fullDescription: "This project helped me understand real-world full-stack architecture. I implemented JWT authentication, Redis-based token blacklisting, and collision-resistant short URL generation using NanoID. Users can register, log in, create short URLs, view all their generated links, and safely redirect to the original URL. Working on this strengthened my concepts of backend APIs, middleware, authentication flows, and secure full-stack development.",
+      technologies: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Redis", "JWT", "NanoID"],
+      tagline:"Secure. Fast. Scalable.",
+      link: "https://drive.google.com/file/d/1QmN0RDdcykzt3ETJFBiaXtn-DGjvovid/view?usp=drive_link",
+      image: URLshortenerImage
+    }
+,
     {
       title: "Weather App",
       shortDescription: "A Weather App built using HTML, CSS, JavaScript, and the OpenWeather API. This project introduced me to the world of APIs and taught me how to fetch, parse, and display data from an external source..",
